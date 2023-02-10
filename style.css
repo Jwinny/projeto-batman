@@ -130,6 +130,10 @@ li a:hover {
     background-repeat: no-repeat;
 }
 
+.card:hover{
+    transform: scale(1.05);
+}
+
 .banner-1{
     background-image: url('https://w0.peakpx.com/wallpaper/214/253/HD-wallpaper-robert-pattinson-batman-3d-model.jpg');
 }
