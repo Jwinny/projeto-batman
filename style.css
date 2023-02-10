@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-header{
+*{
+    color: #FFF;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+header {
     height: 5.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 nav {
     width: 60%;
 }
-ul{
+
+ul {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
+
 li a {
     color: aliceblue;
     cursor: pointer;
@@ -21,19 +28,116 @@ li a {
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-li a:hover{
-    color:#D21617;
+li a:hover {
+    color: #D21617;
 }
 
-#logo{
+#logo {
     width: 150px;
     height: auto;
 }
 
-#banner{
+#banner {
     background-image: url("https://valkirias.com.br/wp-content/uploads/2022/03/valkirias-the-batman-capa-1.png");
     background-position: 50% 50%;
     background-size: cover;
     width: 100%;
     height: 600px;
+}
+
+#trailer-content {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description {
+    font-size: 19px;
+    width: 70%;
+}
+
+.button{
+    width: 200px;
+    height: 60px;
+    background-color: #D21617;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover{
+    background-color: #FFF;
+    color: #000;
+}
+
+
+#actor-card-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: couver;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    font-size: 17px;
+    background-repeat: no-repeat;
+}
+
+.banner-1{
+    background-image: url('https://w0.peakpx.com/wallpaper/214/253/HD-wallpaper-robert-pattinson-batman-3d-model.jpg');
+}
+
+.banner-2{
+    background-image: url('https://pbs.twimg.com/media/FMO83fmWYAMYttY?format=jpg&name=900x900');
+}
+
+.banner-3{
+    background-image: url('https://cdn.mos.cms.futurecdn.net/4Z6yxVu5LGNyQ7bfstbsg8.png')
 }
