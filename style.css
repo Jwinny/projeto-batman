@@ -32,9 +32,10 @@ li a:hover {
     color: #D21617;
 }
 
-#logo {
+.logo {
     width: 150px;
     height: auto;
+    object-fit: contain;
 }
 
 #banner {
@@ -144,4 +145,23 @@ li a:hover {
 
 .banner-3{
     background-image: url('https://cdn.mos.cms.futurecdn.net/4Z6yxVu5LGNyQ7bfstbsg8.png')
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
